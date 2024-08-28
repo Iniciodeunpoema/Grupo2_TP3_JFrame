@@ -38,6 +38,12 @@ public class ComboView extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jComboBoxAlumnos.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jComboBoxAlumnosActionPerformed(evt);
+            }
+        });
+
         jLabelMatricula.setText("Matricula:");
 
         jLabelApellido.setText("Apellido:");
@@ -102,6 +108,14 @@ public class ComboView extends javax.swing.JFrame {
     private void jTextFieldMatriculaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldMatriculaActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextFieldMatriculaActionPerformed
+
+    private void jComboBoxAlumnosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBoxAlumnosActionPerformed
+        // TODO add your handling code here:
+        Alumno alumno = (Alumno) jComboBoxAlumnos.getSelectedItem();
+        jTextFieldMatricula.setText(alumno.getMatricula() + "");
+        jTextFieldApellido.setText(alumno.getApellido() + "");
+        jTextFieldNombre.setText(alumno.getNombre() + "");
+    }//GEN-LAST:event_jComboBoxAlumnosActionPerformed
 
     /**
      * @param args the command line arguments
