@@ -3,7 +3,8 @@ package tp3_jframe;
 
 public class Alumno {
     private int matricula;
-    private String apellido, nombre;
+    private String apellido;
+    private String nombre;
 
     public Alumno(int matricula, String apellido, String nombre) {
         this.matricula = matricula;
@@ -33,11 +34,6 @@ public class Alumno {
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
-    }
-    
-    @Override
-    public String toString() {
-        return matricula + "-" + apellido + ", " + nombre;
     }
     
 }
