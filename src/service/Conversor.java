@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com;
+package service;
 
 import javax.swing.JOptionPane;
 
@@ -123,7 +123,7 @@ public class Conversor extends javax.swing.JFrame {
         jPanelCenter.add(jLabelConversor, java.awt.BorderLayout.PAGE_START);
 
         jButtonConvertir.setFont(new java.awt.Font("Arial", 0, 36)); // NOI18N
-        jButtonConvertir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/images/icons8-aprobar-y-actualizar-48.png"))); // NOI18N
+        jButtonConvertir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/service/images/icons8-aprobar-y-actualizar-48.png"))); // NOI18N
         jButtonConvertir.setText("Convertir");
         jButtonConvertir.setPreferredSize(new java.awt.Dimension(10, 70));
         jButtonConvertir.addActionListener(new java.awt.event.ActionListener() {

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com;
+package service;
 
 import javax.swing.JOptionPane;
 
@@ -55,7 +55,7 @@ public class Credenciales extends javax.swing.JFrame {
 
         jButtonOcultar.setBackground(new java.awt.Color(204, 204, 204));
         jButtonOcultar.setFont(new java.awt.Font("Calibri", 0, 36)); // NOI18N
-        jButtonOcultar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/images/icons7-ocultar-contraseña-50.png"))); // NOI18N
+        jButtonOcultar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/service/images/icons7-ocultar-contraseña-50.png"))); // NOI18N
         jButtonOcultar.setText("Ocultar");
         jButtonOcultar.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButtonOcultar.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
@@ -70,7 +70,7 @@ public class Credenciales extends javax.swing.JFrame {
 
         jButtonVer.setBackground(new java.awt.Color(204, 204, 204));
         jButtonVer.setFont(new java.awt.Font("Calibri", 0, 36)); // NOI18N
-        jButtonVer.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/images/icons7-mostrar-contraseña-50.png"))); // NOI18N
+        jButtonVer.setIcon(new javax.swing.ImageIcon(getClass().getResource("/service/images/icons7-mostrar-contraseña-50.png"))); // NOI18N
         jButtonVer.setText("Ver");
         jButtonVer.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButtonVer.setHideActionText(true);
@@ -117,7 +117,7 @@ public class Credenciales extends javax.swing.JFrame {
 
         jButtonVerificar.setBackground(new java.awt.Color(204, 204, 204));
         jButtonVerificar.setFont(new java.awt.Font("Calibri", 0, 36)); // NOI18N
-        jButtonVerificar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/images/icons8-cliente-windows-48.png"))); // NOI18N
+        jButtonVerificar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/service/images/icons8-cliente-windows-48.png"))); // NOI18N
         jButtonVerificar.setText("Verificar");
         jButtonVerificar.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButtonVerificar.setIconTextGap(10);
